@@ -39,10 +39,10 @@ public class Cidade implements Serializable {
 		this.id = id;
 	}
 //
-	public Integer getNome() {
+	public String getNome() {
 		return nome;
 	}
-	public void setNome(Integer nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
 //
