@@ -1,7 +1,5 @@
 package com.pedro.cursomc.resources.exception;
 
-import java.awt.SystemColor;
-
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.http.HttpStatus;
