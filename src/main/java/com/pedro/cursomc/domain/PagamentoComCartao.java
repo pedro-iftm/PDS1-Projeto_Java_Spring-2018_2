@@ -1,7 +1,5 @@
 package com.pedro.cursomc.domain;
 
-import java.util.Date;
-
 import javax.persistence.Entity;
 
 import com.pedro.cursomc.domain.enums.EstadoPagamento;
