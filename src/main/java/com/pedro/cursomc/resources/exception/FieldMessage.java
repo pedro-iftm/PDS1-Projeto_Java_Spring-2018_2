@@ -4,10 +4,11 @@ import java.io.Serializable;
 
 public class FieldMessage implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+//
 	private String fieldName;
 	private String message;
 	
+//CONSTRUTORES	
 	public FieldMessage() {
 	}
  	public FieldMessage(String fieldName, String message) {
@@ -15,12 +16,15 @@ public class FieldMessage implements Serializable {
 		this.fieldName = fieldName;
 		this.message = message;
 	}
+ 
+//GETTERS AND SETTERS
  	public String getFieldName() {
 		return fieldName;
 	}
  	public void setFieldName(String fieldName) {
 		this.fieldName = fieldName;
 	}
+ 	
  	public String getMessage() {
 		return message;
 	}
