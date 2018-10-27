@@ -55,12 +55,12 @@ public class Pedido implements Serializable {
 //GETTERS AND SETTERS
 
 	public double getValorTotal() {
-	double soma = 0.0;
-	for (ItemPedido ip : itens) {
-		soma = soma + ip.getSubTotal();
+		double soma = 0.0;
+		for (ItemPedido ip : itens) {
+			soma = soma + ip.getSubTotal();
+		}
+		return soma;
 	}
-	return soma;
-}
 	
 	public Integer getId() {
 		return id;
